@@ -7,7 +7,8 @@ class PaintingsController < ApplicationController
     @painting = Painting.new(params[:painting])
     if @painting.save
       flash[:notice] = "Successfully created painting."
-      redirect_to @painting.gallery
+      render text: galleries_path
+
     else
       render :action => 'new'
     end
