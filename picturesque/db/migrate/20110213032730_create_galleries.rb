@@ -4,6 +4,8 @@ class CreateGalleries < ActiveRecord::Migration
       t.string :name
       t.timestamps
     end
+
+    Gallery.create :name => "My Test Gallery"
   end
 
   def self.down
