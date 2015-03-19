@@ -1,3 +1,6 @@
+Simple Rails server that uses Carrierwave for file uploads. Forked from an old Railscasts episode, just so we have a simple server to test against.
+Dan
+
 Railscasts Episode #253: CarrierWave File Uploads
 
 http://railscasts.com/episodes/253
